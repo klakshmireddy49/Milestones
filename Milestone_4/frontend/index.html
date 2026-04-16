@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>AI Workflow Studio</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<h1>AI Workflow Automation Studio</h1>
+
+<div class="inputCard">
+
+<input id="topic"
+placeholder="Enter research topic">
+
+<button onclick="runWorkflow()">
+Run Automation
+</button>
+
+</div>
+
+<div class="workflow">
+
+<div class="step" id="research">
+Research
+</div>
+
+<div class="step" id="analysis">
+Analysis
+</div>
+
+<div class="step" id="summary">
+Summary
+</div>
+
+<div class="step" id="email">
+Email
+</div>
+
+<div class="step" id="evaluation">
+Evaluation
+</div>
+
+</div>
+
+<div class="results">
+
+<div class="card">
+
+<h3>Summary</h3>
+
+<pre id="summaryText"></pre>
+
+</div>
+
+<div class="card">
+
+<h3>Email</h3>
+
+<pre id="emailText"></pre>
+
+</div>
+
+<div class="card">
+
+<h3>Metrics</h3>
+
+<pre id="metrics"></pre>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
